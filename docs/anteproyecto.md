@@ -4,28 +4,34 @@
 
 ## OBJETIVOS
 
-*[TODO] Se indicará de forma genérica y sin entrar en concreciones el objetivo
-que se pretende alcanzar al realizar el proyecto. Se indicará igualmente donde
-será utilizado el proyecto obtenido.*
+La aplicación que se propone tiene como objetivo ofrecer a los jugadores de League of Legends una herramienta para mejorar su rendimiento y su experiencia en el juego. La aplicación se basa en un software que analiza las partidas en tiempo real de los compañeros y los rivales, utilizando datos estadísticos y algoritmos avanzados. Con esta información, la aplicación proporciona consejos personalizados, sugerencias de estrategias, gráficos de rendimiento y otros recursos útiles para los jugadores. La aplicación pretende ser una ayuda para todos los niveles de habilidad, desde principiantes hasta profesionales, y contribuir al desarrollo de los esports.*
 
 ## PREANALISIS DE LO EXISTENTE (Opcional)
 
-*[TODO] Si procede, se informará brevemente sobre el funcionamiento del sistema actual. El que vamos a reemplazar o a mejorar. Este sistema no tiene por qué estar necesariamente automatizado pudiendo realizarse actualmente de forma manual por personas.*
+Actualmente existen aplicaciones web como OP.GG o Mobalytics que te dan información básica, la intención es obtener un poco más de información mas detallada, realizar un análisis, y ofrecer un beneficio al usuario.
 
 ## ANÁLISIS DEL SOFTWARE
 
-*[TODO] Determinar de forma genérica lo que tiene que hacer el software y cuáles son los requisitos que debe cumplir.*
 
-*Si el proyecto trata sobre la adaptación o ampliación de algún software existente, se deberá aportar información sobre el mismo (documentos electrónicos, direcciones URL, etc.), delimitando claramente cuál será el trabajo que se realizará y que funcionalidad ya está implementada.*
 
-> *Incuir los diagramas necesarios*
+> 1 - Adquirir acceso a datos en tiempo real de las partidas de League of Legends
+> 
+> 2 - Adquirir conocimientos de League of Legends para poder analizar partidas en tiempo real
+> 
+> 3 - Establecer conexión en tiempo real con los datos de League of Legends
+> 
+> 4 - Analizar y procesar los datos para extraer la información relevantes de las partidas
+> 
+> 5 - Crear una interfaz de usuario atractiva e intuitiva para que los usuarios puedan interactuar con ella y ver los resultados
+> 
+> 6 - Considerar la posible escalabilidad de la aplicación si se llegase a dar el caso
 
 ## DISEÑO DEL SOFTWARE
 
-*[TODO] Propuesta de posibles opciones de implementación del software que hay que construir, determinar cómo se va a llevar a cabo la implementación.*
-
->  *Incluir los diagramas necesarios.*
+*[TODO] Se intentará crear una App en Android con Flutter, pero aún está en estudio realizarlo así o como proyecto web en php.*
 
 ## ESTIMACIÓN DE COSTES
 
-*[TODO] Estimar el coste que representará la creación del proyecto. Esta estimación será temporal y/o económica si procede (costes de contratación de servicios en la nube, por ejemplo).*
+Teniendo en cuenta que se realizaran alrededor de 30 horas para generar el modelo y obtener los requisitos necesarios, para desarrollar el producto se usarán unas 85h (con 20h de margen por si encontrasemos complicaciones).
+
+Y teniendo como referencia que a 37'5h semanales por 4 semanas (150h) son 1320€ (suministrado por la asignatura de Entorno de desarrollo), y dado que no hay necesidad a priori de gestionar almacenamiento en la nube, saldría por 1188€
