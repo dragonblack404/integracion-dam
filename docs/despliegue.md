@@ -1,8 +1,3 @@
 # Instalación/Despliegue
 
-Puesta en producción del software. En caso de una aplicación de usuario final, deberá contar con un instalador o paquete de instalación (exe, msi, deb, deb, rpm, apk).
-
-Opcionalmente, se propone hacer uso de herramientas de tipo CI/CD (integración continua/despliegue continuo) que faciliten la distribución/despliegue. 
-
-
-> NOTA: La CI/CD es un método para distribuir las aplicaciones a los clientes con frecuencia mediante el uso de la automatización en las etapas del distribución y la implementación continuas.
+Para el despliegue de esta aplicación sólo hara falta tener un servidor (propio en nuestro equipo o externo cómo podría ser en [Hostinger]([Hostinger: Mucho Más Que Alojamiento Web. Tres Dos Online](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwir0rOq0Z7_AhUkn2gJHRhVBLMYABABGgJ3Zg&ae=2&ohost=www.google.com&cid=CAESbOD2hcGhyHN_qAo7j4hGbmtJ-RA7ETDAs4kWERSdW97D4dx8QkHM_WOkQitrwjWLzHsdes2HFKHpisoyiIuQEUvR1LRO1tRF4EygGJvc-4rthsNNCjY84TfcM0h0A07HXNOwsUN5YsvgzB4BGw&sig=AOD64_3HNq0MfXm7ML4qra12OFGsjr0X9w&q&adurl&ved=2ahUKEwj6n66q0Z7_AhVfZaQEHWIhCfcQ0Qx6BAgIEAE))) y copiaremos todos los ficheros, y en una base de datos ejecutar el fichero padelDB.sql que se encuentra adjunto con el proyecto.

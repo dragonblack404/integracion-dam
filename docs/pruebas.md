@@ -1,7 +1,3 @@
 # Pruebas
 
-Detección de fallos cometidos en las etapadas anteriores para corregirlos. Elaborar planes de pruebas a distintos niveles: pruebas unitarias, pruebas de integración, pruebas con usuarios, ...
-
-Incluye en este apartado la documentación de las pruebas que te planteas realizar.
-
-También la documentación resultante de las pruebas realizadas con la confimación de su correcto funcionamiento y las conclusiones que se puedan extraer de las mismas. 
+Se han cometido fallos en las primeras fases con los logins y la creación de cuentas, de los cuales se han solventando la mayoria. En cuanto a la lógica del proyecto relacionado al padel se realizaron pruebas tanto internas como externas por medio de compañeros que juegan y no se han encontrado fallos hasta ahora.

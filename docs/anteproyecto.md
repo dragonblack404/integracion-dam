@@ -4,34 +4,30 @@
 
 ## OBJETIVOS
 
-La aplicación que se propone tiene como objetivo ofrecer a los jugadores de League of Legends una herramienta para mejorar su rendimiento y su experiencia en el juego. La aplicación se basa en un software que analiza las partidas en tiempo real de los compañeros y los rivales, utilizando datos estadísticos y algoritmos avanzados. Con esta información, la aplicación proporciona consejos personalizados, sugerencias de estrategias, gráficos de rendimiento y otros recursos útiles para los jugadores. La aplicación pretende ser una ayuda para todos los niveles de habilidad, desde principiantes hasta profesionales, y contribuir al desarrollo de los esports.*
+La aplicación se trata de un servicio web para amigos y equipos que quieran tener un control sobre las victorias que realizan entre ellos cada vez que se reunan a jugar. 
 
 ## PREANALISIS DE LO EXISTENTE (Opcional)
 
-Actualmente existen aplicaciones web como OP.GG o Mobalytics que te dan información básica, la intención es obtener un poco más de información mas detallada, realizar un análisis, y ofrecer un beneficio al usuario.
+Actualmente me pidieron esta idea de proyecto puesto que no tenían conocimiento de ninguna aplicación que ofrezca un ranking según los equipos que juegen y acumulen victorias con un gráfico final sobre el porcentaje de victorias de cada equipo
 
 ## ANÁLISIS DEL SOFTWARE
 
-
-
-> 1 - Adquirir acceso a datos en tiempo real de las partidas de League of Legends
+> 1- Detección del usuario que se conecta a nuestro servicio y posibilidad de recuperación de contraseña en caso de olvido o pérdida
 > 
-> 2 - Adquirir conocimientos de League of Legends para poder analizar partidas en tiempo real
+> 2 - Total control por parte del usuario que se conecte sobre la base de datos en cuanto a jugadores, equipos y puntuaciones que lo conformen, adjunto diseño de la base de datos final 
 > 
-> 3 - Establecer conexión en tiempo real con los datos de League of Legends
+> ![estructuraDB.png](C:\Users\Usuario\Documents\Lightshot\TFG\estructuraDB.png)
 > 
-> 4 - Analizar y procesar los datos para extraer la información relevantes de las partidas
+> 3 - Posibilidad de agregar manualmente o mediante .CSV o .XLSX los equipos que han competido y las victorias que han realizado respectivamente
 > 
-> 5 - Crear una interfaz de usuario atractiva e intuitiva para que los usuarios puedan interactuar con ella y ver los resultados
-> 
-> 6 - Considerar la posible escalabilidad de la aplicación si se llegase a dar el caso
+> 4 - Visualizar de manera inmediata el porcentaje de victorias de cada equipo de ese usuario que inicio sesión
 
 ## DISEÑO DEL SOFTWARE
 
-*[TODO] Se intentará crear una App en Android con Flutter, pero aún está en estudio realizarlo así o como proyecto web en php.*
+Aplicación Web con base en Bootstrap 5 con los recursos necesarios de botones y selectores de jugadores/equipos, responsivo para usarlo desde terminales móviles o PC, y con los estilos claro/oscuro para mayor satisfacción del usuario final
 
 ## ESTIMACIÓN DE COSTES
 
-Teniendo en cuenta que se realizaran alrededor de 30 horas para generar el modelo y obtener los requisitos necesarios, para desarrollar el producto se usarán unas 85h (con 20h de margen por si encontrasemos complicaciones).
+Teniendo en cuenta que se realizaran alrededor de 15 horas para generar el modelo y obtener los requisitos necesarios, para desarrollar el producto se usarán unas 50h (con 20h de margen por si encontrasemos complicaciones).
 
-Y teniendo como referencia que a 37'5h semanales por 4 semanas (150h) son 1320€ (suministrado por la asignatura de Entorno de desarrollo), y dado que no hay necesidad a priori de gestionar almacenamiento en la nube, saldría por 1188€
+Y teniendo como referencia que a 37'5h semanales por 4 semanas (150h) son 1320€ (suministrado por la asignatura de Entorno de desarrollo), y dado que el servidor sería gratuito, saldría por 800€
